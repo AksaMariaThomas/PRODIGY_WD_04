@@ -1,0 +1,132 @@
+.navbar.navbar-expand-lg.fixed-top.navbarScroll {
+    background-color: #ffffff !important; 
+}
+
+.bgimage {
+    height: 120vh;
+    background: url('aksa.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('aksa.jpg');
+    background-size: 90% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.hero_title {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    color: #ffffff; 
+    margin-bottom: 1rem;
+}
+
+.hero_desc {
+    font-size: 1.8rem; 
+    color: #fefefe; 
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imageAboutPage {
+    width: 100%;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#portfolio {
+    background-color: #f8f9fa; 
+    padding: 60px 0;
+}
+
+#portfolio h1 {
+    color: #333; 
+}
+
+#portfolio .row {
+    margin-top: 30px;
+}
+
+#certifications {
+    background-color: #f0f0f0; 
+    padding: 60px 0;
+}
+
+#certifications h1 {
+    color: #333;
+}
+#achievements {
+    background-color: #e9ecef;
+    padding: 60px 0; 
+}
+
+#achievements h1 {
+    color: #333;
+}
+
+#achievements ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills {
+    background-color: #f0f0f0; 
+    padding: 60px 0;
+}
+
+#skills h1 {
+    color: #333; 
+}
+
+#skills ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+#skills h4 {
+    margin-top: 30px;
+}
+
+#contact {
+    
+    padding-bottom: 4rem;
+}
